@@ -1,0 +1,56 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:'Oswald', sans-serif;
+    }
+    
+nav ul {
+    list-style: none;                  /* removes dots next to links*/
+    background-color: #4a4a4f;            /* charcoal*/
+    text-align: center;
+    margin:0;                 /* 0 removes padding or margin on ul*/
+    padding: 0;
+    
+}   
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;        /*items in list next to each other*/
+    margin-left: 2.5%;         /* breathing space between list items*/
+    
+}
+
+nav a {
+    text-decoration: none; /*removes underlines from links*/
+    color: #ffffff;
+    display: block;    /* display as block elements*/
+}
+
+nav a:hover  {
+    background-color: #ffffff;      /* white*/
+    color:#4a4a4f;                 /*charcoal*/
+    
+}
+
+.card {   /*styles for cards */
+    float: left;    /* all in single row*/
+    width: 20%;     /* 20% of page*/
+    margin-left: 10%; /*will seperate each of the cards*/
+}
+                    
+                    
+.card a {    /* targets anchor tags within card elements*/              
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
